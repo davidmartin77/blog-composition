@@ -1,14 +1,6 @@
-.flex-container {
+.header {
 	display: -webkit-flex;
-	justify-content: space-between;
-	display: flex;
-	width: 250px;
-	height 250px;
-
-.TWlogo {
-	align: left;
-	height: 5px;
-	width: 5px;
+	-webkit-justify-content: space-between;
 }
 
 .a {
