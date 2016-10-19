@@ -30,7 +30,7 @@ a {
 	display: -webkit-flex;
 	-webkit-flex-direction: column;
 	margin-left: 50px;
-
+	width: 1000px;
 }
 
 .trentbio {
@@ -56,7 +56,7 @@ a {
 }
 
 .content {
-display: -webkit-flex;
+	display: -webkit-flex;
 	-webkit-align-items: center;
 }
 
@@ -65,15 +65,10 @@ display: -webkit-flex;
 	font-family: "garamond";
 	max-width: 300px;
 	font-size: 18px;
+	margin-left: 50px;
 }
 
 .content__image {
-	width: 150px;
-	height: 150px;
-	min-width: 150px
-	min-height: 150px;
-	padding-top: 20px;
-	padding-bottom: 120px;
 }
 .more {
 	display: -webkit-flex;
@@ -97,5 +92,10 @@ display: -webkit-flex;
 .bottomlinks__other {
 	padding-top: 50px;
 	padding-left: 200px;
+}
+.line {
+	width: 100%;
+	border-top: 1px solid #929CA2;
+}
 }
 
