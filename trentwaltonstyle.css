@@ -54,7 +54,9 @@ body {
 	font-size: 28px;
 	line-height: 36px;
 }
-
+.tagged {
+	font-size: 24px;
+}
 .header {	
 	display: -webkit-flex;
 	-webkit-justify-content: space-between;	
