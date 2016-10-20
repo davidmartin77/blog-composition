@@ -21,7 +21,9 @@ body {
 	margin-bottom: 20px;
 	margin-top: 120px;
 }
-
+.banner--article {
+	display: block;
+}
 .columnwrapper {
 	display: -webkit-flex;
 	-webkit-flex-direction: column;
@@ -49,7 +51,8 @@ body {
 	font-size: 24px;
 }
 .articleText {
-	font-size: 24px;
+	font-size: 28px;
+	line-height: 36px;
 }
 
 .header {	
@@ -80,6 +83,10 @@ body {
 	width: 650px;
 }
 
+.main--article {
+	width: 750px;
+	-webkit-align-items: flex-start;
+}
 
 .trentbio {
 	padding-top: 50px;
