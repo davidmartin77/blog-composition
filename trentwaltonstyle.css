@@ -95,9 +95,12 @@ a {
 	font-weight: bold;
 	font-size: 14px;
 }
-.bottomlinks__other {
-	padding-top: 50px;
-	padding-left: 200px;
+.bottomlinks__text {
+	padding-right: 20px;
+	font-size: 14px;
+	font-family: "arial", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 .line {
 	width: 100%;
@@ -108,5 +111,10 @@ a {
 	padding: 20px;
 	display: -webkit-flex;
 	-webkit-justify-content: space-between;
+}
+.bottomlinks {
+	display: -webkit-flex;
+	-webkit-align-items: center;
+
 }
 
