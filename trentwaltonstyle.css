@@ -33,19 +33,19 @@ body {
 	margin-bottom: 150px;
 }
 
-.blogpost__header {
+.banner__header {
 	font-size: 48px;
 }
-.blogpost__subhead {
+.banner__subhead {
 	font-style: italic;
 	font-size: 28px;
 	color: #9C9CA2;
 }
-.blogpost__image {
+.banner__image {
 	height: 100px;
 	width: 180px;
 }
-.blogpost__text {
+.banner__text {
 	font-size: 24px;
 }
 
