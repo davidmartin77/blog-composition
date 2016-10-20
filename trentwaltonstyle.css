@@ -2,6 +2,12 @@ a {
 	color: red;
 	text-decoration: none;
 }
+.container {
+	width: 100%;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-items: center;
+}
 
 
 .logo {
@@ -63,13 +69,13 @@ a {
 .content__text {	
 	text-decoration: none;
 	font-family: "garamond";
-	max-width: 300px;
 	font-size: 18px;
 	margin-left: 50px;
 }
 
 .content__image {
 }
+
 .more {
 	display: -webkit-flex;
 	-webkit-flex: flex-start;
