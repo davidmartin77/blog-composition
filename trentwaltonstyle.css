@@ -48,6 +48,9 @@ body {
 .banner__text {
 	font-size: 24px;
 }
+.articleText {
+	font-size: 24px;
+}
 
 .header {	
 	display: -webkit-flex;
