@@ -129,6 +129,8 @@ body {
 .content__image {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	height: 250px;
+	width: 250px;
 }
 
 .more {
