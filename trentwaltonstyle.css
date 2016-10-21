@@ -159,8 +159,15 @@ body {
 }
 .bottomlinks__img {
 	height: 40px;
-	width: 40px;
+	width: 40px;	
 }
+.responses {
+	margin-bottom: 60px;
+}
+.responses__title {
+	font-size: 24px;
+}
+
 .line {
 	width: 100%;
 	border-top: 1px solid #929CA2;
