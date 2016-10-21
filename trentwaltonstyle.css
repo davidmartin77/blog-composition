@@ -157,6 +157,10 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 }
+.bottomlinks__img {
+	height: 40px;
+	width: 40px;
+}
 .line {
 	width: 100%;
 	border-top: 1px solid #929CA2;
