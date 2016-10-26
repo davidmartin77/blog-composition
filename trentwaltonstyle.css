@@ -70,7 +70,9 @@ body {
 #navigation a {
 	display: -webkit-flex;
 	-webkit-justify-content: space-between;
-	-webkit-align-items: center;
+	-webkit-align-items: flex-end;
+	-webkit-flex-direction: column;
+
 	margin-right: 8px;
 	padding-left: 8px;
 	font-family: "arial", sans-serif;
