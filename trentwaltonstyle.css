@@ -67,13 +67,22 @@ body {
 	-webkit-align-items: center;
 }
 
-.navigation {
+#navigation a {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	-webkit-align-items: center;
 	margin-right: 8px;
 	padding-left: 8px;
 	font-family: "arial", sans-serif;
 	color: #9C9CA2;
 	font-weight: bold;
 	font-size: 14px;
+}
+#navigation a:hover {
+	color: red;
+}
+#navigation #currentpage a {
+	color: black;
 }
 .MAIN {
 	display: -webkit-flex;
