@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
+<body>
 
-<div id="navigation">
-<ul> 
+	<div id="navigation">
 
-<li<?php if ($thisPage=="Home")
-echo " id=\"currentpage\""; ?>>
-<a href="index.php">HOME</a></li>
+		<ul> 
 
-<li<?php if ($thisPage=="Aspirations")
-echo " id=\"currentpage\""; ?>>
-<a href="aspirations.php">ASPIRATIONS</a></li>
+			<li<?php if ($thisPage=="Home")
+			echo " id=\"currentpage\""; ?>>
+			<a href="trentwalton.php"><img src="Trent Walton logo.png" height="100px," width="100px" class="logo"></a></li>
 
-<li<?php if ($thisPage=="odds_and_ends")
-echo " id=\"currentpage\""; ?>>
-<a href="odds_and_ends.php">ODDS AND ENDS</a></li>
+			<li<?php if ($thisPage=="Articles")
+			echo " id=\"currentpage\""; ?>>
+			<a href="trentwalton_articles.php">ARTICLES</a></li>
 
-</ul>
-</div>
+			<li<?php if ($thisPage=="Notes")
+			echo " id=\"currentpage\""; ?>>
+			<a href="trentwalton_individualarticle.php">NOTES</a></li>
+
+			<li<?php if ($thisPage=="Info")
+			echo " id=\"currentpage\""; ?>>
+			<a href="http://www.trentwalton.com/info">INFO</a></li>
+
+			<a> SEARCH </a>
+
+		</ul>
+	</div>
+</body>
 </html>
+

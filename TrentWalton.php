@@ -16,11 +16,8 @@
 
 <div class = "header">
 	
-	<img src="Trent Walton logo.png" height="100px," width="100px" class="logo">
-
-
 	<?php include("trentwaltonnavigation.php"); ?>
-	
+
 </div>		
 
 <div class = "container">
