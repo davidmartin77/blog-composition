@@ -13,8 +13,6 @@
 </head>
 
 <body>	
-
-	<img src="Trent Walton logo.png" height="100px," width="100px" class="logo">
 	
 	<div class = "header">
 			

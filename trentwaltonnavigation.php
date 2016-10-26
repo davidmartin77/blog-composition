@@ -16,7 +16,7 @@
 
 			<li<?php if ($thisPage=="Notes")
 			echo " id=\"currentpage\""; ?>>
-			<a href="trentwalton_individualarticle.php">NOTES</a></li>
+			<a href="individual_article.php">NOTES</a></li>
 
 			<li<?php if ($thisPage=="Info")
 			echo " id=\"currentpage\""; ?>>
