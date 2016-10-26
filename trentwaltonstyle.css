@@ -60,8 +60,10 @@ body {
 }
 .header {	
 	display: -webkit-flex;
-	-webkit-justify-content: space-between;	
+	-webkit-justify-content: space-between;
+	align-items: center;	
 }
+
 .headeractions {
 	display: -webkit-flex;
 	-webkit-align-items: center;
@@ -91,6 +93,7 @@ body {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	display: flex;
 }
 
 .MAIN {
