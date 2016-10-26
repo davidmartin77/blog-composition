@@ -86,6 +86,13 @@ body {
 #navigation #currentpage a {
 	color: black;
 }
+
+#navigation ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 .MAIN {
 	display: -webkit-flex;
 	-webkit-flex-direction: column;

@@ -2,14 +2,14 @@
 <html>
 <body>
 
+	<div class="header__left-item">
+		<a href="trentwalton.php"><img src="Trent Walton logo.png" height="100px," width="100px" class="logo"></a>
+	</div>
+
+
 	<div id="navigation">
 
 		<ul> 
-
-			<li<?php if ($thisPage=="Home")
-			echo " id=\"currentpage\""; ?>>
-			<a href="trentwalton.php"><img src="Trent Walton logo.png" height="100px," width="100px" class="logo"></a></li>
-
 			<li<?php if ($thisPage=="Articles")
 			echo " id=\"currentpage\""; ?>>
 			<a href="trentwalton_articles.php">ARTICLES</a></li>
